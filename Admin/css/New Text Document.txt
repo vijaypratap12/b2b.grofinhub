@@ -1,0 +1,9 @@
+USER:- greennature
+Pass:- 123456
+Sender ID : GREENN
+
+
+
+USER:-  nxbiocare
+Pass:-  123456
+Sender ID : BIOCAR
