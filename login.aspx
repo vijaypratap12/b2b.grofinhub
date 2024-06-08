@@ -197,9 +197,9 @@
                 <div class="col-lg-3">
                     <div class="login-form">
                         <h2 id="agntlogin">Login to Continue</h2>
-                        <form id="loginForm" runat="server" method="post" action="https://app.grofinhub.com/">
+                     <%--   <form id="loginForm" runat="server" method="post" action="https://app.grofinhub.com/">--%>
 
-                        <%--<form id="loginForm" runat="server" method="post" action="https://localhost:44317/">--%>
+                        <form id="loginForm" runat="server" method="post" action="https://localhost:44317/">
                             <div class="error-msg" id="actionErrDiv">
                             </div>
                             <div class="error-msg" id="lidPwdDiv" style="display: none;">Please Enter Login ID and Password</div>
@@ -216,7 +216,7 @@
                                 <svg style="width: 22px; height: 22px" viewBox="0 0 24 24">
                                     <path fill="#323232" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"></path>
                                 </svg>
-                                <%-- <asp:TextBox ID="txtagentid" runat="server" class="GATag" data-gatag="Enter Agent ID" placeholder="Enter your Partner ID" value="" MaxLength="150" onkeypress="mcommNS.checkEnterOnLogin(event);" autocomplete="off"></asp:TextBox>--%>
+                                 <%--<asp:TextBox ID="txtagentid" runat="server" class="GATag" data-gatag="Enter Agent ID" placeholder="Enter your Partner ID" value="" MaxLength="150" onkeypress="mcommNS.checkEnterOnLogin(event);" autocomplete="off"></asp:TextBox>--%>
 
                                 <input name="userName" id="userName" placeholder="Enter Mobile No" type="text" class="form-control" onkeypress="return AllowOnlyNumber(event);" MaxLength="10">
                             </div>
@@ -232,7 +232,7 @@
                                 <%--   <input name="mtoken" type="hidden" value="null"> <input type="password" required="" name="pwd" placeholder="Enter your Password" id="pwd" maxlength="30" onkeypress="mcommNS.checkEnterOnLogin(event);" autocomplete="off" readonly="" onfocus="this.removeAttribute('readonly');"> <input type="hidden" id="latitude" name="latitude" value=""> <input type="hidden" id="longitude" name="longitude" value="">--%>
 
 
-                                <%-- <asp:TextBox ID="txtpassword" runat="server" class="GATag" data-gatag="Enter Agent ID" placeholder="Enter your Password" value="" MaxLength="30" onkeypress="mcommNS.checkEnterOnLogin(event);" autocomplete="off" TextMode="Password"></asp:TextBox>--%>
+                                 <%--<asp:TextBox ID="txtpassword" runat="server" class="GATag" data-gatag="Enter Agent ID" placeholder="Enter your Password" value="" MaxLength="30" onkeypress="mcommNS.checkEnterOnLogin(event);" autocomplete="off" TextMode="Password"></asp:TextBox>--%>
 
                                 <input name="password" id="password" placeholder="Enter Password" type="password" class="form-control">
                             </div>
@@ -258,7 +258,7 @@
                             <%--   <input type="button" id="loginBttn" value="Login" class="login-button GATag" data-gatag="Login SMA" onclick="mcommNS.validateLogin();">--%>
 
 
-                            <%--  <asp:Button ID="btnlogin" class="login-button GATag" runat="server" Text="Login" OnClick="btnlogin_Click" ValidationGroup="I" />--%>
+                              <%--<asp:Button ID="btnlogin" class="login-button GATag" runat="server" Text="Login" OnClick="btnlogin_Click" ValidationGroup="I" />--%>
 
 
                             <input class="login-button GATag" type="submit" value="Login to Dashboard" id="demo" />
